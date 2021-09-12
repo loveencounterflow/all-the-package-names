@@ -31,5 +31,11 @@
     "package-stream": "^1.0.2",
     "tap-spec": "^4.1.1",
     "tape": "^4.5.1"
+  },
+  "dependencies": {
+    "cnd": "^9.2.2",
+    "guy": "^2.0.0",
+    "icql-dba": "^10.0.0",
+    "intertype": "^7.6.7"
   }
 }
