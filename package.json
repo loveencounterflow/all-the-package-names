@@ -35,7 +35,9 @@
   "dependencies": {
     "cnd": "^9.2.2",
     "guy": "^2.0.0",
-    "icql-dba": "^10.0.0",
+    "icql-dba": "10.1.0",
+    "icql-dba-catalog": "^1.1.0",
+    "icql-dba-tabulate": "^2.0.0",
     "intertype": "^7.6.7"
   }
 }
