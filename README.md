@@ -1,8 +1,13 @@
+
+
+# DBay-npm (WIP)
+
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
-- [DBay-npm](#dbay-npm)
+- [DBay-npm (WIP)](#dbay-npm-wip)
 - [Old Documentation](#old-documentation)
   - [all-the-package-names](#all-the-package-names)
     - [Installation](#installation)
@@ -17,11 +22,19 @@
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 
-# DBay-npm
-
-
+# DBay-npm (WIP)
 
 * https://stackoverflow.com/a/48272170/256361
+* https://docs.couchdb.org/en/stable/ddocs/views/pagination.html#paging
+
+Alas, paging doesn't seem to work:
+
+```bash
+wget --tries=inf -c -O npm-all.000001.json https://replicate.npmjs.com/_all_docs\?limit\=1000\&skip\=0
+wget --tries=inf -c -O npm-all.000002.json https://replicate.npmjs.com/_all_docs\?limit\=1000\&skip\=1000
+```
+
+results in the same download.
 
 # Old Documentation
 
